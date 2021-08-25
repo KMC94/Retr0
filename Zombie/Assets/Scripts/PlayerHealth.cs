@@ -56,6 +56,8 @@ public class PlayerHealth : LivingEntity {
     {
         if(!dead)
         {
+
+
             // 사망하지 않은 경우에만 효과음 재생
             playerAudioPlayer.PlayOneShot(hitClip);
         }
