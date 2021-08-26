@@ -24,7 +24,8 @@ public class GameManager : MonoBehaviour {
     private int score = 0; // 현재 게임 점수
     public bool isGameover { get; private set; } // 게임 오버 상태
 
-    private void Awake() {
+    private void Awake()
+    {
         // 씬에 싱글톤 오브젝트가 된 다른 GameManager 오브젝트가 있다면
         if (instance != this)
         {
